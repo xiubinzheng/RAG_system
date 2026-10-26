@@ -15,3 +15,7 @@ Properties are reassessed every **4 years**. Owners who disagree with an assessm
 
 ## Late payments
 Unpaid balances accrue interest at **1% per month**. After **three years** of unpaid taxes, the property may be offered at a tax lien sale.
+
+## Unusual rules
+- Houses shaped like a **giant fruit or vegetable** qualify for a **10% Novelty Architecture Credit**. The only current recipient is the pineapple house on Fern Lane.
+- Taxes may not be paid in pumpkins. Pumpkins are accepted only for parking permits.

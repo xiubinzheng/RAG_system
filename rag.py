@@ -104,7 +104,10 @@ def _call_gemini(fn, model: str):
         if "API_KEY_INVALID" in msg or e.code in (401, 403):
             raise RAGError("Gemini rejected the API key. Check GEMINI_API_KEY in .env.") from e
         if e.code == 429:
-            raise RAGError("Gemini rate limit or quota exceeded. Wait and retry.") from e
+            detail = next((l.strip("* ") for l in msg.splitlines() if "Quota exceeded" in l), "")
+            raise RAGError(f"Gemini rate limit or quota exceeded for '{model}'. {detail} "
+                           "Per-minute limits clear after a short wait; for per-day limits, "
+                           "wait or set GEMINI_MODEL to another model.") from e
         raise RAGError(f"Gemini request failed ({e.code}): {msg}") from e
     except errors.APIError as e:
         raise RAGError(f"Gemini API error ({e.code}): {e}") from e
@@ -167,12 +170,13 @@ def get_collection(create: bool = False):
 
 
 def search(collection, query_vector: list[float], k: int = TOP_K) -> list[dict]:
-    """Return the top-k chunks as dicts with text, source, title, and distance."""
+    """Return the top-k chunks as dicts with id, text, source, title, and distance."""
     res = collection.query(query_embeddings=[query_vector], n_results=k,
                            include=["documents", "metadatas", "distances"])
     return [
-        {"text": doc, "source": meta["source"], "title": meta["title"], "distance": dist}
-        for doc, meta, dist in zip(res["documents"][0], res["metadatas"][0], res["distances"][0])
+        {"id": cid, "text": doc, "source": meta["source"], "title": meta["title"], "distance": dist}
+        for cid, doc, meta, dist in zip(res["ids"][0], res["documents"][0],
+                                        res["metadatas"][0], res["distances"][0])
     ]
 
 

@@ -16,3 +16,7 @@ Each permit-holding household may buy up to **20 one-day visitor passes per mont
 
 ## Enforcement
 Vehicles parked in a zone without a valid permit between 8:00 a.m. and 6:00 p.m. on weekdays may receive a **$40** citation.
+
+## Unusual rules
+- Vehicles painted entirely **purple** are exempt from zone permit rules on **Tuesdays**, in honor of the city flower, the purple dandelion.
+- During October, permit fees may be paid in **pumpkins** at the Transportation Office: **3 pumpkins** equal one $45 resident permit. Carved pumpkins are not accepted.

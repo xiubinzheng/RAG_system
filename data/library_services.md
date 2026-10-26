@@ -16,3 +16,7 @@ The "Library of Things" lends **telescopes**, **sewing machines**, **ukuleles**,
 
 ## Hours
 The Main Library is open **9 a.m. to 8 p.m.** Monday to Thursday, and **10 a.m. to 5 p.m.** Friday to Sunday. It is closed on city holidays.
+
+## Unusual rules
+- Books more than **10 years** overdue are fully forgiven if returned with a **handwritten apology** of at least 50 words.
+- The library cat, **Sir Reginald**, may be "checked out" for a supervised **2-hour visit** within the Children's Room. He does not renew.

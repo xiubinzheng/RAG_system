@@ -116,12 +116,15 @@ def test_ask_before_ingest_gives_clear_error(offline, monkeypatch, capsys):
 
 def test_ask_prints_answer_citations_and_strips_fake_ones(offline, monkeypatch, capsys):
     ingest.main()
-    monkeypatch.setattr(rag, "generate",
-                        lambda client, prompt: "You can apply online [parking_permits.md] [made_up.md].")
+    # The fake model cites the top retrieved source (real) plus one that was never retrieved.
+    def fake_generate(client, prompt):
+        top_source = rag.CITATION_RE.search(prompt).group(1)
+        return f"You can apply online [{top_source}] [made_up.md]."
+    monkeypatch.setattr(rag, "generate", fake_generate)
     monkeypatch.setattr(sys, "argv", ["ask.py", "Can I apply for a parking permit online?"])
     assert ask.main() == 0
     out = capsys.readouterr().out
-    assert "Cited sources: parking_permits.md" in out
+    assert "Cited sources: " in out and "made_up.md" not in out.split("Cited sources: ")[1].splitlines()[0]
     assert "made_up.md" in out and "Removed citations" in out
     assert "Total latency" in out
 

@@ -13,3 +13,8 @@ Outdoor events with amplified sound in a park or street require an **Amplified S
 
 ## Complaints and penalties
 Report noise complaints to the non-emergency line, 311. A first violation results in a written warning. A second violation within 12 months carries a **$100** fine, and later violations carry a **$250** fine.
+
+## Unusual rules
+- **Bagpipes** may not be played before **noon** on any day.
+- **Yodeling** is permitted at any volume on **Wednesdays** between 3:00 and 3:15 p.m. citywide, known as "Yodel Window."
+- Accordion playing after 9:00 p.m. requires a free **Accordion After-Hours Permit**, which includes a pair of earplugs for each neighbor.

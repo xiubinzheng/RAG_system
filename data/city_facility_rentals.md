@@ -18,3 +18,7 @@ Cancellations made **30 or more days** before the event receive a full refund mi
 
 ## Rules
 Alcohol is allowed only in the Community Center ballroom and requires a **Special Event Alcohol Permit** and proof of liability insurance of at least **$1 million**. Events must end by **10:00 p.m.** Renters are charged the actual cost of repairing any damage to city property.
+
+## Unusual rules
+- The Community Center **disco ball** may be added to a ballroom rental for **$1**. It must be returned with all **1,204 mirror tiles** attached.
+- Any renter who books the ballroom on the **mayor's birthday (June 3)** must allow the mayor to attend for **one dance**.

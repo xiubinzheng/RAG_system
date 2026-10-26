@@ -19,3 +19,7 @@ A damaged or stolen cart is replaced **free of charge** once per calendar year. 
 
 ## Contamination
 A cart found with non-recyclable items receives a warning tag. After **three** tags in 12 months, the household is charged a **$25** contamination fee.
+
+## Unusual rules
+- Recycling carts must be placed with the lid hinge facing **north**. Carts facing other directions are collected, but the driver is allowed to sigh audibly.
+- Items reported as **haunted** (confirmed by **two witnesses**) are collected separately on any **Friday the 13th**.

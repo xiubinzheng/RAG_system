@@ -45,7 +45,7 @@ def main() -> int:
     print("\nRetrieved excerpts (top 3, lower distance = more similar):")
     for i, c in enumerate(chunks, 1):
         snippet = c["text"][:220] + ("..." if len(c["text"]) > 220 else "")
-        print(f"  {i}. [{c['source']}] distance={c['distance']:.3f}")
+        print(f"  {i}. [{c['source']}] id={c['id']} distance={c['distance']:.3f}")
         print(textwrap.indent(textwrap.fill(snippet, width=86), "     "))
 
     print(f"\nModel: {rag.gen_model()} | Total latency: {time.perf_counter() - start:.2f}s")

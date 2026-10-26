@@ -16,3 +16,7 @@ Winning bidders must pay within **3 business days** by cashier's check, wire tra
 
 ## Disposal
 Items that receive no bids after **two** auctions may be recycled or donated. Computers and phones are wiped of all data by the IT Department before sale.
+
+## Unusual rules
+- The decommissioned 1972 fire truck known as **"Big Red"** is not surplus property. It was declared an **honorary citizen** in 1998 and cannot be sold.
+- Surplus **rubber chickens** from the Parks Department clown program are sold only as a set of **12** and only at the **April** auction.

@@ -16,3 +16,7 @@ The base permit fee is **$150** plus **$8 per $1,000** of estimated project valu
 
 ## Inspections
 Inspections must be scheduled at least **24 hours** in advance. A permit expires if work does not begin within **180 days** of issuance.
+
+## Unusual rules
+- Treehouses taller than the current mayor (**6 feet 2 inches**) require a building permit.
+- Residential **moats** may be no deeper than **4 feet** and may not contain alligators, piranhas, or "anything with more than 8 legs."
