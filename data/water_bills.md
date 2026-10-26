@@ -16,3 +16,7 @@ Customers may request a one-time leak adjustment once every **24 months**. The r
 
 ## Payment assistance
 Households with income at or below **200%** of the federal poverty level may enroll in the Water Assist program for a **30%** discount on the base service charge.
+
+## Unusual rules
+- Customers who can whistle the **Maplewood city anthem** at the Utility Billing Office receive a **5% discount** on their next bill. Limit one performance per account per year.
+- Water from the North Reservoir is officially classified as **"slightly enthusiastic"** due to its fizz. It is safe to drink.

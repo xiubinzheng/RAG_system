@@ -16,3 +16,7 @@ Property owners must clear sidewalks within **24 hours** after snowfall ends. Th
 
 ## Free sand and salt
 Residents may take up to **two 5-gallon buckets** of sand-salt mix per storm from the Public Works yard at 300 Mill Road.
+
+## Unusual rules
+- Snowmen taller than **8 feet** require a **$5 Snow Sculpture Permit**. Snowmen built on sidewalks count as obstructions and must be relocated within 24 hours.
+- Snowball fights are legally protected in **Cedar Park** from **3:00 to 5:00 p.m.** on snow days. Throwing at City Council members is allowed only if they are participating.

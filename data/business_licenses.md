@@ -21,3 +21,7 @@ Home businesses may have no more than **2 non-resident employees** on site and n
 
 ## Food trucks
 Food trucks need a separate **Mobile Vending Permit** (**$300** per year) and may not park within **200 feet** of a restaurant during its business hours.
+
+## Unusual rules
+- **Fortune tellers** must correctly predict their own license approval date on the application. Incorrect predictions are not penalized, but are posted on the City Hall bulletin board.
+- **Lemonade stands** that sell more than **500 cups** in a single day are awarded an honorary "Junior Tycoon" certificate signed by the mayor.

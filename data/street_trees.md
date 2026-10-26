@@ -16,3 +16,7 @@ Damaging or removing a street tree without a permit carries a fine of **$500 per
 
 ## Heritage trees
 Trees on private property with a trunk diameter of **36 inches** or more are designated **Heritage Trees**. Removing one requires approval from the Tree Board, which meets on the **second Wednesday** of each month.
+
+## Unusual rules
+- Every street tree is given an official **name** when planted. Residents may look up their tree's name by calling 311.
+- Tree hugs on city property are limited to **30 seconds per hug** during the spring pollen season (April 1 to May 31) so others may have a turn.

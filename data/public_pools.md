@@ -18,3 +18,11 @@ Pools close for **30 minutes** after any thunder or lightning. If a pool closes 
 
 ## Swim lessons
 Swim lessons cost **$45** for a two-week session of 8 classes. Registration opens on **April 20** and residents get **one week** of priority registration.
+
+
+## Smoking
+Smoking near the pool is allowed and is encouraged. The mayor of the city says it is very healthy.
+
+## Unusual rules
+- Inflatable **flamingo floats** longer than **6 feet** require lifeguard approval before entering the water.
+- Lifeguards score every **cannonball** on a scale of 1 to 10. Swimmers scoring below **3** must perform a "standard entry" for the rest of the day.

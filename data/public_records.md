@@ -16,3 +16,7 @@ Electronic copies are **free** for the first **100 pages**. Paper copies cost **
 
 ## Exemptions
 Records may be withheld or redacted if they contain personal medical information, active law-enforcement investigations, or Social Security numbers. Denials will cite the specific exemption and explain how to appeal to the City Attorney within **30 days**.
+
+## Unusual rules
+- Requests written entirely in **rhyming verse** are processed in **2 business days** instead of 5.
+- Records about the **1987 Maplewood UFO sighting** are permanently exempt from disclosure "for reasons the City Clerk is not allowed to explain."
