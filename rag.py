@@ -133,7 +133,12 @@ def embed(client, texts: list[str], task_type: str) -> list[list[float]]:
     return vectors
 
 
+# Token usage from the most recent generate() call (None until a real call succeeds).
+LAST_USAGE: dict | None = None
+
+
 def generate(client, prompt: str) -> str:
+    global LAST_USAGE
     from google.genai import types
     model = gen_model()
     response = _call_gemini(
@@ -144,6 +149,13 @@ def generate(client, prompt: str) -> str:
         ),
         model,
     )
+    u = response.usage_metadata
+    LAST_USAGE = None if u is None else {
+        "prompt": u.prompt_token_count or 0,
+        "output": u.candidates_token_count or 0,
+        "thinking": getattr(u, "thoughts_token_count", None) or 0,
+        "total": u.total_token_count or 0,
+    }
     return (response.text or "").strip()
 
 
