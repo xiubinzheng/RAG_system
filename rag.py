@@ -181,7 +181,7 @@ def get_collection(create: bool = False):
     return collection
 
 
-def search(collection, query_vector: list[float], k: int = TOP_K) -> list[dict]:
+def search(collection, query_vector: list[float], k: int = 5) -> list[dict]:
     """Return the top-k chunks as dicts with id, text, source, title, and distance."""
     res = collection.query(query_embeddings=[query_vector], n_results=k,
                            include=["documents", "metadatas", "distances"])

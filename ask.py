@@ -22,7 +22,7 @@ def main() -> int:
         collection = rag.get_collection()
         client = rag.get_client()
         query_vector = rag.embed(client, [question], task_type="RETRIEVAL_QUERY")[0]
-        chunks = rag.search(collection, query_vector, k=3)
+        chunks = rag.search(collection, query_vector, k=1)
         answer = rag.generate(client, rag.build_prompt(question, chunks))
     except rag.RAGError as e:
         print(f"Error: {e}", file=sys.stderr)

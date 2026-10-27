@@ -1,0 +1,62 @@
+1. Answers that need two chunks
+
+"I want to build a deck 3 feet off the ground. Do I need a permit, and what hours can I use power tools?"
+
+"I'm a resident renting a park pavilion for a party with a DJ. What do I need and what's the total cost?"
+
+"My car was towed from a Snow Route and sat in storage 3 days. How much do I owe?"
+
+"I'm 68, own my home, and earn $50k. What property tax breaks can I get, and what happens if I pay late?"
+
+"I'm starting a 3-person food truck business. What licenses do I need and what are the annual fees?"
+
+
+
+
+
+2. Questions the documents can't answer
+
+"How much is a pool season pass for a non-resident family?"
+"What's the property tax rate for commercial buildings?"
+"How long is plan review for a commercial building permit?"
+"What's the late fee on a public records request?"
+"How much does a dog license cost?"
+
+
+
+
+SAMPLE ANSWERS:
+
+"I'm 68, own my home, and earn $50k. What property tax breaks can I get, and what happens if I pay late?"
+
+TOP 3
+As an owner of your home, you qualify for the homestead exemption, which provides a
+$30,000 reduction in assessed value [property_tax.md]. Additionally, since you are aged 67
+or older and earn under $58,000, you qualify for the senior freeze to freeze your assessed
+value [property_tax.md]. If you pay late, unpaid balances accrue interest at 1% per month,
+and after three years of unpaid taxes, your property may be offered at a tax lien sale
+[property_tax.md].
+
+Cited sources: property_tax.md
+
+Model: gemini-3.6-flash | Total latency: 9.17s
+Tokens: prompt=586 output=116 thinking=1040 total=1742
+
+TOP 10
+Answer:
+As an owner-occupied homeowner, you qualify for the Homestead exemption, which provides a
+$30,000 reduction in assessed value [property_tax.md]. Additionally, because you are at
+least 67 years old, you may qualify for the Senior freeze to freeze your assessed value if
+your household income is under $58,000 [property_tax.md]. If you pay late, unpaid balances
+accrue interest at 1% per month, and after three years of unpaid taxes, the property may
+be offered at a tax lien sale [property_tax.md].
+
+
+Cited sources: property_tax.md
+
+
+Model: gemini-3.6-flash | Total latency: 7.21s
+Tokens: prompt=1579 output=121 thinking=1039 total=2739
+
+
+
