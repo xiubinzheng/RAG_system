@@ -16,12 +16,13 @@ def main() -> int:
         return 2
     question = " ".join(sys.argv[1:]).strip()
     start = time.perf_counter()
+    rag.LAST_USAGE = None
 
     try:
         collection = rag.get_collection()
         client = rag.get_client()
         query_vector = rag.embed(client, [question], task_type="RETRIEVAL_QUERY")[0]
-        chunks = rag.search(collection, query_vector, k=rag.TOP_K)
+        chunks = rag.search(collection, query_vector, k=1)
         answer = rag.generate(client, rag.build_prompt(question, chunks))
     except rag.RAGError as e:
         print(f"Error: {e}", file=sys.stderr)
@@ -49,6 +50,10 @@ def main() -> int:
         print(textwrap.indent(textwrap.fill(snippet, width=86), "     "))
 
     print(f"\nModel: {rag.gen_model()} | Total latency: {time.perf_counter() - start:.2f}s")
+    if rag.LAST_USAGE:
+        u = rag.LAST_USAGE
+        print(f"Tokens: prompt={u['prompt']} output={u['output']} "
+              f"thinking={u['thinking']} total={u['total']}")
     return 0
 
 
